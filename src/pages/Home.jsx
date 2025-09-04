@@ -6,7 +6,7 @@ import { Navbar } from "../components/Navbar";
 // import { SkillsSection } from "../components/SkillsSection";
 // import { ProjectsSection } from "../components/ProjectsSection";
 // import { ContactSection } from "../components/ContactSection";
-// import { Footer } from "../components/Footer";
+ import { Footer } from "../components/Footer";
 
 const Home = () => {
   return (
@@ -28,7 +28,7 @@ const Home = () => {
       </main>
 
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
